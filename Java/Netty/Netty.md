@@ -179,7 +179,6 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<FullHttpRequ
 
 现在就先写这么多啦。请听下回分解！
 
-#### 参考
 
-[Netty实战入门详解]: https://www.cnblogs.com/nanaheidebk/p/11025362.html
 
+#### 3.编写一个客户端
