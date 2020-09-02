@@ -22,7 +22,7 @@ CPU，对于单线程的Redis来说成本过高，因此Redis采用惰性删除�
 
 Redis内部维护一个定时任务，默认每秒运行10次（通过配置hz控制）。定时任务中删除过期键逻辑采用了自适应算法，根据键的过期比例、使用快慢两种速率模式回收键。流程图如图：
 
-![img](D:\MyStudy\学习杂记\Redis\Redis.assets\clip_image002.jpg)
+![img](..\Redis.assets\clip_image002.jpg)
 
 流程说明：
 
